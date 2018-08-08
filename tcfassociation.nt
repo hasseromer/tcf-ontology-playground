@@ -1,9 +1,36 @@
-<http://tcfplayground.org/schema/consignment> <http://purl.org/dc/terms/modified> "2018-08-08T09:29:33.386Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/consignment> <http://purl.org/dc/terms/modified> "2018-08-08T09:51:39.338Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcfplayground.org/schema/consignment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://tcfplayground.org/schema/consignment> <http://www.w3.org/2000/01/rdf-schema#comment> "A consignment has one pick up address, one delivery address and contain multiple packages." .
 <http://tcfplayground.org/schema/consignment> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/ShippersInstruction> .
 <http://tcfplayground.org/schema/consignment> <http://www.w3.org/2000/01/rdf-schema#label> "consignment" .
-<http://tcfplayground.org/schema/ShippersInstruction> <http://purl.org/dc/terms/modified> "2018-08-08T09:29:33.386Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/forwarder> <http://purl.org/dc/terms/modified> "2018-08-08T09:51:39.338Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/forwarder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/forwarder> <http://www.w3.org/2000/01/rdf-schema#comment> "" .
+<http://tcfplayground.org/schema/forwarder> <http://www.w3.org/2000/01/rdf-schema#description> "The party undertaking the freight forwarding of these consignments." .
+<http://tcfplayground.org/schema/forwarder> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/ShippersInstruction> .
+<http://tcfplayground.org/schema/forwarder> <http://www.w3.org/2000/01/rdf-schema#label> "forwarder" .
+<http://tcfplayground.org/schema/grossWeight> <http://purl.org/dc/terms/modified> "2018-08-08T09:51:39.338Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/grossWeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#description> "A measure of the gross weight (mass) of these consignments which includes the weight of packaging but which excludes the weight of any transport equipment." .
+<http://tcfplayground.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/ShippersInstruction> .
+<http://tcfplayground.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#label> "grossWeight" .
+<http://tcfplayground.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://tcfplayground.org/schema/quantityOfPackages> <http://purl.org/dc/terms/modified> "2018-08-08T09:51:39.338Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/quantityOfPackages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/quantityOfPackages> <http://www.w3.org/2000/01/rdf-schema#description> "The number of packages in the complete shippers instruction." .
+<http://tcfplayground.org/schema/quantityOfPackages> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/ShippersInstruction> .
+<http://tcfplayground.org/schema/quantityOfPackages> <http://www.w3.org/2000/01/rdf-schema#label> "quantityOfPackages" .
+<http://tcfplayground.org/schema/ShippersInstruction> <http://purl.org/dc/terms/modified> "2018-08-08T09:51:39.338Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcfplayground.org/schema/ShippersInstruction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcfplayground.org/schema/ShippersInstruction> <http://www.w3.org/2000/01/rdf-schema#comment> "A shippers instruction or transport order can contain multiple consignments and thus multi-pickup and drop-off." .
 <http://tcfplayground.org/schema/ShippersInstruction> <http://www.w3.org/2000/01/rdf-schema#label> "Shippers Instruction" .
+<http://tcfplayground.org/schema/shippersInstructionShippersReference> <http://purl.org/dc/terms/modified> "2018-08-08T09:51:39.338Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/shippersInstructionShippersReference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/shippersInstructionShippersReference> <http://www.w3.org/2000/01/rdf-schema#description> "The reference for the shippers instruction in the shippers system" .
+<http://tcfplayground.org/schema/shippersInstructionShippersReference> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/ShippersInstruction> .
+<http://tcfplayground.org/schema/shippersInstructionShippersReference> <http://www.w3.org/2000/01/rdf-schema#label> "shippersInstructionShippersReference" .
+<http://tcfplayground.org/schema/volume> <http://purl.org/dc/terms/modified> "2018-08-08T09:51:39.338Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/volume> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/volume> <http://www.w3.org/2000/01/rdf-schema#description> "A measure of the gross volume of this trade line item." .
+<http://tcfplayground.org/schema/volume> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/ShippersInstruction> .
+<http://tcfplayground.org/schema/volume> <http://www.w3.org/2000/01/rdf-schema#label> "volume" .
