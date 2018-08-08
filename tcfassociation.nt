@@ -1,1 +1,45 @@
-<http://tcfplayground.org/schema/> <http://purl.org/dc/terms/modified> "2018-08-02T11:38:21.701Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/grossWeight> <http://purl.org/dc/terms/modified> "2018-08-08T12:53:23.979Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/grossWeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#description> "A measure of the gross weight (mass) of these consignments which includes the weight of packaging but which excludes the weight of any transport equipment." .
+<http://tcfplayground.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Package> .
+<http://tcfplayground.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#label> "grossWeight" .
+<http://tcfplayground.org/schema/height> <http://purl.org/dc/terms/modified> "2018-08-08T12:53:23.979Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/height> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/height> <http://www.w3.org/2000/01/rdf-schema#description> "A measure of the height of this trade line item." .
+<http://tcfplayground.org/schema/height> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Package> .
+<http://tcfplayground.org/schema/height> <http://www.w3.org/2000/01/rdf-schema#label> "height" .
+<http://tcfplayground.org/schema/height> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://tcfplayground.org/schema/length> <http://purl.org/dc/terms/modified> "2018-08-08T12:53:23.979Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/length> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/length> <http://www.w3.org/2000/01/rdf-schema#description> "A measure of the length of this trade line item." .
+<http://tcfplayground.org/schema/length> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Package> .
+<http://tcfplayground.org/schema/length> <http://www.w3.org/2000/01/rdf-schema#label> "length" .
+<http://tcfplayground.org/schema/netWeight> <http://purl.org/dc/terms/modified> "2018-08-08T12:53:23.979Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/netWeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/netWeight> <http://www.w3.org/2000/01/rdf-schema#description> "A measure of the net weight (mass) of this trade line item which excludes all packaging." .
+<http://tcfplayground.org/schema/netWeight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Package> .
+<http://tcfplayground.org/schema/netWeight> <http://www.w3.org/2000/01/rdf-schema#label> "netWeight" .
+<http://tcfplayground.org/schema/Package> <http://purl.org/dc/terms/modified> "2018-08-08T12:53:23.979Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/Package> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcfplayground.org/schema/Package> <http://www.w3.org/2000/01/rdf-schema#description> "Representing a specific logistics package uniquely identifiable" .
+<http://tcfplayground.org/schema/Package> <http://www.w3.org/2000/01/rdf-schema#label> "Package" .
+<http://tcfplayground.org/schema/packageReference> <http://purl.org/dc/terms/modified> "2018-08-08T12:53:23.979Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/packageReference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/packageReference> <http://www.w3.org/2000/01/rdf-schema#description> "A packaging identifier, expressed as text, for this trade line item" .
+<http://tcfplayground.org/schema/packageReference> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Package> .
+<http://tcfplayground.org/schema/packageReference> <http://www.w3.org/2000/01/rdf-schema#label> "packageReference" .
+<http://tcfplayground.org/schema/packageType> <http://purl.org/dc/terms/modified> "2018-08-08T12:53:23.979Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/packageType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/packageType> <http://www.w3.org/2000/01/rdf-schema#description> "A packaging type, expressed as text, for this trade line item" .
+<http://tcfplayground.org/schema/packageType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Package> .
+<http://tcfplayground.org/schema/packageType> <http://www.w3.org/2000/01/rdf-schema#label> "packageType" .
+<http://tcfplayground.org/schema/volume> <http://purl.org/dc/terms/modified> "2018-08-08T12:53:23.979Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/volume> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/volume> <http://www.w3.org/2000/01/rdf-schema#description> "A measure of the gross volume of this trade line item." .
+<http://tcfplayground.org/schema/volume> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Package> .
+<http://tcfplayground.org/schema/volume> <http://www.w3.org/2000/01/rdf-schema#label> "volume" .
+<http://tcfplayground.org/schema/width> <http://purl.org/dc/terms/modified> "2018-08-08T12:53:23.979Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/width> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/width> <http://www.w3.org/2000/01/rdf-schema#description> "A measure of the width of this trade line item." .
+<http://tcfplayground.org/schema/width> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Package> .
+<http://tcfplayground.org/schema/width> <http://www.w3.org/2000/01/rdf-schema#label> "width" .
