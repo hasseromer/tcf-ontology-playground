@@ -1,1 +1,9 @@
-<http://tcfplayground.org/schema/> <http://purl.org/dc/terms/modified> "2018-08-02T11:38:21.701Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/consignment> <http://purl.org/dc/terms/modified> "2018-08-08T09:29:33.386Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/consignment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/consignment> <http://www.w3.org/2000/01/rdf-schema#comment> "A consignment has one pick up address, one delivery address and contain multiple packages." .
+<http://tcfplayground.org/schema/consignment> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/ShippersInstruction> .
+<http://tcfplayground.org/schema/consignment> <http://www.w3.org/2000/01/rdf-schema#label> "consignment" .
+<http://tcfplayground.org/schema/ShippersInstruction> <http://purl.org/dc/terms/modified> "2018-08-08T09:29:33.386Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/ShippersInstruction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcfplayground.org/schema/ShippersInstruction> <http://www.w3.org/2000/01/rdf-schema#comment> "A shippers instruction or transport order can contain multiple consignments and thus multi-pickup and drop-off." .
+<http://tcfplayground.org/schema/ShippersInstruction> <http://www.w3.org/2000/01/rdf-schema#label> "Shippers Instruction" .
