@@ -1,1 +1,51 @@
-<http://tcfplayground.org/schema/> <http://purl.org/dc/terms/modified> "2018-08-02T11:38:21.701Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/buyer> <http://purl.org/dc/terms/modified> "2018-08-17T08:49:15.360Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/buyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/buyer> <http://www.w3.org/2000/01/rdf-schema#description> "The buyer party for this consignment." .
+<http://tcfplayground.org/schema/buyer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Consignment> .
+<http://tcfplayground.org/schema/buyer> <http://www.w3.org/2000/01/rdf-schema#label> "buyer" .
+<http://tcfplayground.org/schema/consignee> <http://purl.org/dc/terms/modified> "2018-08-17T08:49:15.360Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/consignee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/consignee> <http://www.w3.org/2000/01/rdf-schema#description> "The consignee party for this consignment." .
+<http://tcfplayground.org/schema/consignee> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Consignment> .
+<http://tcfplayground.org/schema/consignee> <http://www.w3.org/2000/01/rdf-schema#label> "consignee" .
+<http://tcfplayground.org/schema/Consignment> <http://purl.org/dc/terms/modified> "2018-08-17T08:49:15.360Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/Consignment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcfplayground.org/schema/Consignment> <http://www.w3.org/2000/01/rdf-schema#comment> "A separately identifiable collection of goods items to be transported or available to be transported from one consignor to one consignee via one or more modes of transport where each consignment is the subject of one single transport contract.  " .
+<http://tcfplayground.org/schema/Consignment> <http://www.w3.org/2000/01/rdf-schema#description> "A separately identifiable collection of goods items to be transported or available to be transported from one consignor to one consignee via one or more modes of transport where each consignment is the subject of one single transport contract." .
+<http://tcfplayground.org/schema/Consignment> <http://www.w3.org/2000/01/rdf-schema#label> "Consignment" .
+<http://tcfplayground.org/schema/consignor> <http://purl.org/dc/terms/modified> "2018-08-17T08:49:15.360Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/consignor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/consignor> <http://www.w3.org/2000/01/rdf-schema#description> "The consignor party for this consignment." .
+<http://tcfplayground.org/schema/consignor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Consignment> .
+<http://tcfplayground.org/schema/consignor> <http://www.w3.org/2000/01/rdf-schema#label> "Consignor" .
+<http://tcfplayground.org/schema/incoterm> <http://purl.org/dc/terms/modified> "2018-08-17T08:49:15.360Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/incoterm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/incoterm> <http://www.w3.org/2000/01/rdf-schema#description> "A code specifying a type of delivery for these delivery terms such as the INCOTERMS Terms of Delivery." .
+<http://tcfplayground.org/schema/incoterm> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Consignment> .
+<http://tcfplayground.org/schema/incoterm> <http://www.w3.org/2000/01/rdf-schema#label> "Incoterm" .
+<http://tcfplayground.org/schema/incotermsLocation> <http://purl.org/dc/terms/modified> "2018-08-17T08:49:15.360Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/incotermsLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/incotermsLocation> <http://www.w3.org/2000/01/rdf-schema#description> "A location relevant for these delivery terms." .
+<http://tcfplayground.org/schema/incotermsLocation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Consignment> .
+<http://tcfplayground.org/schema/incotermsLocation> <http://www.w3.org/2000/01/rdf-schema#label> "incotermsLocation" .
+<http://tcfplayground.org/schema/requestedDeliveryDate> <http://purl.org/dc/terms/modified> "2018-08-17T08:49:15.360Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/requestedDeliveryDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/requestedDeliveryDate> <http://www.w3.org/2000/01/rdf-schema#description> "Ultimate Ship To Delivery Date Time." .
+<http://tcfplayground.org/schema/requestedDeliveryDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Consignment> .
+<http://tcfplayground.org/schema/requestedDeliveryDate> <http://www.w3.org/2000/01/rdf-schema#label> "requestedDeliveryDate" .
+<http://tcfplayground.org/schema/requestedDeliveryDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://tcfplayground.org/schema/requestedPickupDate> <http://purl.org/dc/terms/modified> "2018-08-17T08:49:15.360Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/requestedPickupDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/requestedPickupDate> <http://www.w3.org/2000/01/rdf-schema#description> "A date, time, date time, or other date time value when this trade delivery is available for pick-up.	" .
+<http://tcfplayground.org/schema/requestedPickupDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Consignment> .
+<http://tcfplayground.org/schema/requestedPickupDate> <http://www.w3.org/2000/01/rdf-schema#label> "requestedPickupDate" .
+<http://tcfplayground.org/schema/seller> <http://purl.org/dc/terms/modified> "2018-08-17T08:49:15.360Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/seller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/seller> <http://www.w3.org/2000/01/rdf-schema#description> "The Seller party for this consignment." .
+<http://tcfplayground.org/schema/seller> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Consignment> .
+<http://tcfplayground.org/schema/seller> <http://www.w3.org/2000/01/rdf-schema#label> "seller" .
+<http://tcfplayground.org/schema/transportAgreementLaneId> <http://purl.org/dc/terms/modified> "2018-08-17T08:49:15.360Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/transportAgreementLaneId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/transportAgreementLaneId> <http://www.w3.org/2000/01/rdf-schema#description> "Identifier of specific transport agreement lane." .
+<http://tcfplayground.org/schema/transportAgreementLaneId> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Consignment> .
+<http://tcfplayground.org/schema/transportAgreementLaneId> <http://www.w3.org/2000/01/rdf-schema#label> "transportAgreementLaneID" .
